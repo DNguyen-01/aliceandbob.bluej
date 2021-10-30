@@ -10,7 +10,7 @@ import org.junit.Test;
 public class IsAliceTest {
     private void testIsAlice(String input, Boolean expected){
         // given
-        AliceAndBobEngine evaluator = new AliceAndBobEngine();
+        AliceAndBobEngine evaluator = new AliceAndBobEngine(); //<- "new" is just a creation an instance of alice and bob
 
         // when
         Boolean actual = evaluator.isAlice(input);
